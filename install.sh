@@ -13,7 +13,7 @@ echo ""
 sleep 2s
 
 
-echo "$(tput setaf 1) Updating and installing dependencies ${RESET}"
+echo "${OKRED} Updating and installing dependencies ${RESET}"
 echo ""
 
 sudo apt-get -y update
