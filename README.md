@@ -13,3 +13,9 @@ That's all I guess ;)
 Script for aliases/shell functions: [https://github.com/unethicalnoob/aliases](https://github.com/unethicalnoob/aliases)
 
 you can modify it as you like.
+
+# Installing
+- git clone https://github.com/unethicalnoob/BBHTv2 
+- cd BBHTv2
+- chmod +x install.sh
+- ./install.sh
