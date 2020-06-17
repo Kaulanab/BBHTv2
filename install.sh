@@ -54,8 +54,7 @@ sleep 1s
 echo "${OKRED} #### Installing Golang #### ${RESET}"
 cd ~
 wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz
-sudo tar -zxvf go1.14.4.linux-amd64.tar.gz
-sudo mv go /usr/local
+sudo tar -C /usr/local -xvzf go1.14.4.linux-amd64.tar.gz
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
@@ -499,7 +498,7 @@ echo "${OKRED}#### Other Tools ####${RESET}"
 
 echo "${OKBLUE} installing SSRFMap ${RESET}"
 git clone https://github.com/swisskyrepo/SSRFmap ~/tools/SSRFMap
-cd ~/tools/SSRFmap/
+cd ~/tools/SSRFMap/
 sudo pip3 install -r requirements.txt
 echo "${OKBLUE} done${RESET}"
 echo ""
