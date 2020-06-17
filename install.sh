@@ -4,11 +4,11 @@ OKRED='\033[91m'
 OKBLUE='\033[94m'
 RESET='\e[0m'
 
-echo "$OKRED ######################################################### $RESET"
-echo "$OKRED #                 TOOLS FOR BUG BOUNTY                  # $RESET"
-echo "$OKRED ######################################################### $RESET"
-echo "$OKRED Tools created by the best people in the InfoSec Community $RESET"
-echo "$OKRED                   Thanks to everyone!                     $RESET"
+echo "${OKRED} ######################################################### ${RESET}"
+echo "${OKRED} #                 TOOLS FOR BUG BOUNTY                  # ${RESET}"
+echo "${OKRED} ######################################################### ${RESET}"
+echo "${OKRED} Tools created by the best people in the InfoSec Community ${RESET}"
+echo "${OKRED}                   Thanks to everyone!                     ${RESET}"
 echo ""
 sleep 2s
 
